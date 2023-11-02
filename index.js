@@ -7,3 +7,12 @@ var datetime = moment().startOf("day").fromNow();
 console.log(datetime);
 
 console.log(math.sqrt(-4));
+
+var name = "Ben";
+var time = "today";
+console.log(`Hello ${name}, how are you ${time}?`);
+
+function f(x, y = 12) {
+  return x + y;
+}
+console.log(f(3));
